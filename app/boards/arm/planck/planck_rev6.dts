@@ -19,6 +19,7 @@
 		zephyr,console = &cdc_acm_uart;
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &layout_grid_transform;
+		zmk,underglow = &led_strip;
 	};
 
 	kscan0: kscan {
